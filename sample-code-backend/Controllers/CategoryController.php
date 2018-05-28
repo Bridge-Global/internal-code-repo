@@ -202,7 +202,6 @@ class CategoryController extends Controller
 
     /**
      * API for getting all categories.
-     *
      * @api {post} /api/categories/getCategories getting all categories.
      * @apiDescription getting all categories.
      *
