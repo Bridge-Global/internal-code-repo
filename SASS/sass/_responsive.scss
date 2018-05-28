@@ -1,0 +1,38 @@
+/* BREAK POINT FOR COL-MD */
+
+@media screen and (max-width:1199px) {
+    
+    .page-wrapper {
+        
+        .page-content {
+
+                .table-outer {
+                    width: 100%;
+                    overflow-x: scroll;
+                    overflow-y: hidden;
+
+                         .content-table{
+                            margin-to:7px;
+                        }
+                }
+            }
+        }
+   
+   
+}
+
+@media screen and (max-width:1245px) {
+    .container{
+        width: 100%;
+    }
+}
+ 
+@media (max-width:1200px) and (min-width: 992px) {
+  
+}
+/* BREAK POINT FOR COL-SM */
+@media (max-width:991px) and (min-width: 768px) {
+}
+/* BREAK POINT FOR COL-XS */
+@media (max-width:767px) {
+}

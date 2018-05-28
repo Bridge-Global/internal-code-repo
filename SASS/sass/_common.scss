@@ -1,0 +1,32 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EDF0F2;
+    font-family: 'Roboto', sans-serif;
+    
+    h1, h2, h3, h4, h5, h6, p{
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+    
+    h1{
+    font-size: 28px !important;
+}
+.top-section{
+    
+    h1{
+        color: $default-color;
+        font-weight: 300 !important;
+        padding: 30px 0;
+        margin: 0 !important;
+    }
+}
+    .btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary.focus:active, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus{
+        background: $focus-button-color;
+    }
+
+}
+
+

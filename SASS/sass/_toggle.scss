@@ -1,0 +1,61 @@
+.content-cell{
+    
+    .toggle-btn{
+        display: block;
+        margin: 10px auto;
+        width: 60px;
+        
+            .switch {
+                display: block;
+                box-sizing: border-box;
+                width: 58px;
+                height: 30px;
+                border-radius: 999px;
+                background-color: #d8d9db;
+                margin-bottom: 10px;
+                -webkit-transition: background-color cubic-bezier(.25, .46, .45, .94) .2s;
+                -moz-transition: background-color cubic-bezier(.25, .46, .45, .94) .2s;
+                transition: background-color cubic-bezier(.25, .46, .45, .94) .2s;
+
+                        .helper {
+                            margin-top: 2px;
+                            margin-left: 2px;
+                            border-radius: 50%;
+                            width: 25px;
+                            height: 25px;
+                            display: inline-block;
+                            background-color: #fff;
+                            -webkit-transition-property: -webkit-transform;
+                            -moz-transition-property: -moz-transform;
+                            transition-property: transform;
+                            -webkit-transition-duration: .2s;
+                            -moz-transition-duration: .2s;
+                            transition-duration: .2s;
+                            -webkit-transition-timing-function: cubic-bezier(.25, .46, .45, .94);
+                            -moz-transition-timing-function: cubic-bezier(.25, .46, .45, .94);
+                            transition-timing-function: cubic-bezier(.25, .46, .45, .94);
+                            }
+         }
+
+        .ui-checked {
+            border-color: #4cd864;
+            background-color: #4cd864;
+            }
+        .ui-checked .helper {
+            -webkit-transform: translateX(30px);
+            -moz-transform: translateX(30px);
+            -ms-transform: translateX(30px);
+            -o-transform: translateX(30px);
+            transform: translateX(30px);
+            }
+
+ }
+       
+}
+
+
+
+                    
+
+
+                   

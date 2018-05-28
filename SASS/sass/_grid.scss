@@ -1,0 +1,214 @@
+.page-wrapper{
+    
+    position: relative;
+    
+        .page-content {
+            margin-left: 170px;
+            width: auto;
+              
+              .poperty-button{
+                        background: $default-button-color;
+                        color: $white-color;
+                        font-size: 16px;
+                        padding: $padding;
+                        border: $clear-border;
+                        min-width: 168px;
+                    }
+
+                 .search-bar{
+                        width: 55%; 
+
+                            .navbar-form{
+                                margin:$clearmargin;
+                                padding: 0;
+
+                                    .input-group{
+                                        width: 100%;
+
+                                        .form-control{
+                                            border-radius: $clear-radius;
+                                            padding: $padding;
+                                            font-size: 16px;
+                                            font-weight: 400;
+                                            height: 46px;
+                                        }
+                                }
+
+                                    .input-group-btn{
+                                        padding: 0;
+                                        background-color: $default-button-color;
+                                        width: 43px;
+                                        text-align: center;
+                                         height: 46px;
+
+                                        button.search-button{
+                                            background:url("../images/sprite.png") no-repeat  0 -30px;
+                                            border: 0 none;
+                                            border-radius: 0;
+                                            color: #fff;
+                                            height: 35px;
+                                            padding: 0;
+                                            width: 35px;
+                                            margin: $clearmargin;
+                                        }
+                               }
+                            }
+                   }
+                   
+           
+               .table-outer{
+                   
+                    .content-table{
+                        display: table;
+                        border-left: 1px solid #ccc;
+                        margin-top: 10px;
+                        
+                            .content-heading{
+                                display: table-row;
+                                font-weight: bold;
+                                text-align: center;
+                                background: #2d6464;
+                                color: $white-color;
+                                
+                                    .content-cell{
+                                        display: table-cell;
+                                        border-right: $default-border;
+                                        border-bottom: $default-border;
+                                        padding: 0 10px;
+                                        vertical-align: bottom;
+                                        height: 90px;
+                                        cursor: pointer;
+                                        
+                                        p{
+                                            margin:$clearmargin;
+                                        }
+                                        .fa{
+                                            font-size: 16px;
+                                            color: $white-color;
+                                        }
+                                        span{
+                                            display: table;
+                                            vertical-align: bottom;
+                                            width: 100%;
+                                        }
+                                        .cell-head{
+                                            height: 40px; 
+                                            font-size: 17px;
+                                            font-weight: 300;
+                                          }
+                                        
+                                    }
+                            }
+                        
+                            .content-row{
+                                display: table-row;
+                                background: $white-color;
+                                
+                                    .content-cell{
+                                        display: table-cell;
+                                        border-right: $default-border;
+                                        border-bottom: $default-border;
+                                        padding: 15px 5px;
+                                        vertical-align: middle;
+                                        
+                                        p{
+                                            text-align: $align-center;
+                                            font-weight: 400;
+                                            font-size: 13px;
+                                        }
+                                        
+                                        .villa-icon{
+                                            display: block;
+                                            text-align: center;
+                                            
+                                            .fa-home{
+                                                font-size: 38px;
+                                                color: $default-button-color;
+                                            }
+                                        }
+                                        
+                                            .view-icon{
+                                                width: 40px;
+                                                height: 26px;;
+                                                display: block;
+                                                margin: 10px auto;
+                                                
+                                                    .view{
+                                                        background:url(../images/sprite.png) no-repeat left -100px;
+                                                        padding: 14px 20px;
+                                                        display: inline-block;
+                                                        
+                                                    }
+                                                
+                                        }
+                                        
+                                        .statistics-icon{
+                                                width: 40px;
+                                                height: 26px;;
+                                                display: block;
+                                                margin: 10px auto;
+                                                
+                                                    .statistics{
+                                                        background:url(../images/sprite.png) no-repeat left -157px;
+                                                        padding: 14px 20px;
+                                                        display: inline-block;
+                                                        
+                                                    }
+                                        }
+                                    }
+                            }
+                    }
+                   
+                  
+               }
+            
+                 .pagination-nav{
+                       text-align: $align-center;
+                       
+                       .pagination {
+                           .link {
+                               display: table-cell;
+                               vertical-align: middle;
+                               padding: 0 15px;
+                               
+                                   a, span{
+                                       background: none;
+                                       border: $clear-border;
+                                       color: $default-button-color;
+                                       border-radius: $clear-radius;
+                                       display: table-cell;
+                                       vertical-align: middle;
+                                       font-size: 16px;
+
+                                           .fa{
+                                               color: #333333;
+                                               font-size: 35px;
+                                           }
+                                   }
+                                   a{
+                                       font-weight: 600;
+                                       &:hover{
+                                           color: #bbc0c5;
+                                       }
+                                   }
+                               
+                                   .prv-text{
+                                       padding-left: 15px;
+                                       font-weight: normal;
+                                   }
+                                   .next-text{
+                                       padding-right: 15px;
+                                       font-weight: normal;
+                                   }
+                           } 
+                       } 
+                   }
+           
+    }
+
+}
+
+   
+    
+    
+    
